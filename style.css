@@ -6,14 +6,14 @@ body{
     align-items: center;
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background: linear-gradient(45deg, black, transparent);
 }
 
 header{
     padding: 20px;
     font-weight: bolder;
     font-size: 50px;
-    background-color: aliceblue;
+    background: linear-gradient(45deg, snow, transparent);
     width: 100%;
     text-align: center;
 }
@@ -21,7 +21,7 @@ header{
 .calculator{
     margin: 70px auto;
     padding: 20px;
-    border: 10px solid blue;
+    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-around; */
@@ -29,7 +29,7 @@ header{
     
     width: 600px;
     height: 800px;
-    background-color: black;
+    background-color: transparent;
     color: white;
 }
 .screen{
@@ -63,7 +63,7 @@ header{
     width: 135px;
     max-width: 140px;
     max-height: 133px;
-    background-color: green;
+    background-color: lightseagreen;
     border-radius: 5px;
     text-align: center;
     display: flex;
@@ -77,14 +77,15 @@ header{
 
 .button:hover{
     transform: scale(1.05);
+    border: 2px solid black;
 }
 
 .operator{
-    background-color: orange;
+    background-color: lavenderblush;
 }
 
 .topOperator{
-    background-color: lightblue;
+    background-color: lightcoral;
 }
 
 /* input[type=number]::-webkit-inner-spin-button, 
